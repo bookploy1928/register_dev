@@ -49,6 +49,7 @@ public class regis extends JFrame{
         frame.pack();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(500, 500);
+        frame.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("Untitled-2.png")));
         frame.setTitle("OXGame");
         frame.setVisible(true);
 
